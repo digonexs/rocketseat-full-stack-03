@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color: #ef5f4c;
+  --bg-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: #ffffff91;
+  --txt-color-primary: #313131;
+  --txt-color-secundary: #6c6c6c;
+  --font: "Poppins", sans-serif;
+  --text: 16px/150% var(--font);
+  --text-lg: bold 32px/125% var(--font);
+  --text-md: 14px/170% var(--font);
+  --text-sm: 12px/170% var(--font);
+}
+
+body {
+  font: var(--fonts);
+  color: var(--txt-color-secundary);
+  background-color: var(--bg-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+.surface-color {
+  background-color: var(--surface-color);
+}
